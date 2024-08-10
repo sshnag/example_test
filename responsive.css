@@ -1,0 +1,23 @@
+.{
+
+
+}
+body
+{
+	background-color: lavender;
+}
+.content{
+	border: 5px solid #fc0354;
+	background-color: #f77cc4;
+	width: 50%;
+	height: 300px;
+	display: block;
+}
+@media(max-width:550px){
+	.content
+	{
+		width: 100%;
+		background-color: midnightblue;
+
+	}
+}
